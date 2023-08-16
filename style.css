@@ -1,0 +1,17 @@
+* {
+    border: 3px solid olivedrab;
+}
+
+.hero,
+.footer {
+    background-color: #1f2937;
+}
+.title-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+ul, div.main p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
