@@ -8,10 +8,38 @@
 }
 .title-text {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 800;
     color: #f9faf8;
 }
-ul, div.main p{
+.header{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul, 
+div.main p,
+.footer{
     font-size: 18px;
     color: #e5e7eb;
+}
+
+button,
+.cta {
+    background-color: #3882f6;
+}
+
+.info-text{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.quote{
+    background-color: #e5e7eb;
+}
+.quote p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
 }
