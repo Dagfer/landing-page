@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
     border: 3px solid olivedrab;
 }
+
 body{
     margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Roboto, sans-serif;
 
 }
 
@@ -28,12 +31,14 @@ div{
     margin-bottom: 100px;
     
 }
+a {
+    color: #e5e7eb;
+}
 .header{
     display: flex;
     font-size: 24px;
     color: #f9faf8;
     align-items: center;
-    text-align: left;
     padding-left: 0;
     flex: 1;
 }
@@ -48,11 +53,10 @@ ul {
 
 .main{
     display: flex;
-    justify-content: space-between;
     padding: 0;
-    gap: 10px;
-    margin-bottom: 100px;
-
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
 
 }
 .main-text{
@@ -81,15 +85,14 @@ ul {
     flex: 1;
     max-width: 400px;
 }
-.placeholder{
+.main img{
     display: flex;
-    color: white;
-    background-color: rgba(220, 220, 220, 0.463);
-    align-items: center;
-    justify-content: center;
+    
     flex: 1;
     padding: 0;
-
+    border-radius: 15px;
+    margin:0;
+    height: 300px;
 }
 
 ul, 
