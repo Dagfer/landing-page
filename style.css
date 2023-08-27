@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* * {
+* {
     border: 3px solid olivedrab;
-} */
+}
 
 body{
     margin: 0;
@@ -85,14 +85,56 @@ ul {
     flex: 1;
     max-width: 400px;
 }
+
 .main img{
     display: flex;
-    
     flex: 1;
     padding: 0;
     border-radius: 15px;
     margin:0;
     height: 300px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-text{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.image-row{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    padding: 5px;
+    flex: 1;
+    width: 950px;
+
+}
+.media{
+    display: flex;
+    flex: 1;
+    padding:0;
+    justify-content: center;
+}
+.information img{
+    display: flex;
+    flex: 1;
+    padding: 0;
+    border-radius: 15px;
+    margin:0;
+    height: 130px;  
+}
+.information #aspect img{
+    width: 150px;
 }
 
 ul, 
@@ -116,11 +158,7 @@ button,
     background-color: #3882f6;
 }
 
-.info-text{
-    font-size: 36px;
-    font-weight: 800;
-    color: #1f2937;
-}
+
 
 .quote{
     background-color: #e5e7eb;
