@@ -24,6 +24,13 @@ div{
     background-color: #1f2937;
 }
 
+ul, 
+div.main .subtext,
+.footer{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .navigation{
     display: flex;
     justify-content: space-between;
@@ -145,14 +152,36 @@ ul {
     display: flex;
 
 }
-
-ul, 
-div.main .subtext,
-.footer{
-    font-size: 18px;
-    color: #e5e7eb;
+.quote{
+    background-color: #e5e7eb;
 }
+.quote p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+.quote p{
+    padding: 10px 16px 0 10px;
+    margin-bottom: 0;
+}
+p#quote-source{
+    text-align: right;
+    font-weight: 800;
+    font-size: 28px;
+    margin-top: 0;
+    padding-top: 0;
+    padding-right: 16px;
+}
+.call-container{
+    display: flex;
+    padding: 50px;
+}
+.cta{
+    display: flex;
+    border-radius: 8px;
 
+}
 button{
     border-radius: 8px;
     height: auto;
@@ -168,12 +197,3 @@ button,
 }
 
 
-.quote{
-    background-color: #e5e7eb;
-}
-.quote p{
-    font-size: 36px;
-    font-style: italic;
-    font-weight: 300;
-    color: #1f2937;
-}
