@@ -7,8 +7,8 @@
 body{
     margin: 0;
     font-family: Roboto, sans-serif;
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -55,11 +55,14 @@ ul {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    gap: 8px;
+    gap: 10px;
     flex: 1;
 
 }
-
+li{
+    padding: 10px;
+    min-width: 200px;
+}
 .main{
     display: flex;
     padding: 0;
